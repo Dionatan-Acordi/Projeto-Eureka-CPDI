@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    background-color: black;
+}
+
+h1{
+   font-size: 50px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 25px;
+}
+h2{
+    color:white;
+    margin: 30px auto;
+    
+}
+.video{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.iframe{
+    margin: 2px 50px;
+    width: 200px;
+    height: auto;
+   
+   border: 1px solid white;
+   border-radius: 15px;
+   
+}
+.imgOds{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    border-radius: 10px;
+
+    
+    
+}
+
+
+.logoCabecario{
+    width:100%;
+    height: auto;
+}
+.logomeio{
+    display: flex;
+    justify-content: center;
+}
+.div1{
+    margin: 50px 70px;
+    margin-bottom: 50px;
+    background-image:url(../img/4a63674f-1751-4f02-991c-2e1ee9025f12.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    border: 3px solid rgb(248, 248, 248);
+    border-radius: 10px;
+
+    
+}
+
+.div0{
+    margin: 50px 70px;
+   
+    background-image:url(../img/534e5987-2b35-459e-9127-17f52f16a922.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    border: 3px solid rgb(248, 248, 248);
+    border-radius: 10px;
+
+    
+}
+.div2{
+    background-image: url(../img/Vida-na-Água-Conheça-o-ODS-14.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    margin: 50px 70px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 600px;
+   
+    
+}
+.pargSup{
+
+    padding: 40px 20px;
+    width: 800px;
+    min-height: 400px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+
+}
+.pargMid{
+
+    padding: 40px 20px;
+    max-width: 600px;
+    min-height: 400px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(250, 250, 250);
+
+}
+.pargInf{
+    color: rgb(7, 7, 7);
+    padding: 60px;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    font-size: 25px;
+}

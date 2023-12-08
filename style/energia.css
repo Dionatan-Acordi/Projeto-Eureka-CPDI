@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    background-color: black;
+}
+
+h1{
+   
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 45px;
+    font-size: 50px;
+}
+h2{
+    color:white;
+    margin: 30px auto;
+    
+}
+.video{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.iframe{
+    margin: 2px 50px;
+    width: 200px;
+    height: auto;   
+   border: 1px solid white;
+   border-radius: 15px;
+   transition: .5s;
+   
+}
+.imgOds{
+    width: 80%;
+    border-radius: 10px;
+}
+
+
+
+.logoCabecario{
+    width:100%;
+    height: auto;
+}
+.div1{
+    margin: 0px 70px;
+    margin-bottom: 50px;
+    background-image:url(../img/fundoSite1.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    border: 3px solid rgb(248, 248, 248);
+    border-radius: 10px;
+    color: white;
+    
+}
+.div2{
+    
+    background-image: url(../img/lampada-1000x457.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    margin: 50px 70px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 10px;
+   
+    
+}
+.pargSup{
+
+    padding: 30px;
+    max-width: 600px;
+    min-height: 400px;
+    text-align: center;
+    font-size: 25px;
+    
+
+}
+.pargInf{
+   
+    display: flex;
+   justify-content: right;
+    color: white;
+    padding: 50px;
+    max-width: 350px;
+    min-height: 400px;
+    text-align: center;
+    font-size: 30px;
+}
+.iframe:hover{
+    transform: scale(1.1);
+}
