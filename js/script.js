@@ -17,7 +17,7 @@ function logar(){
 
     if(user =="surf@gmail.com" && senha == "surf"){
          alert("podeCre");
-         window.location.href="./index/index.html";
+         window.location.href="./index/pagina-inicial.html";
     }else{
         alert('usuário não cadastrado');
     }
